@@ -30,7 +30,7 @@ const Navigation = () => {
           </li>
           <li>
             <Link className='links' to='/services'>
-              Services
+              Servicess
             </Link>
           </li>
           <li>
