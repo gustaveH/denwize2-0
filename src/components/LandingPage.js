@@ -4,10 +4,8 @@ import landingImage from '../images/landingImage.jpg';
 const LandingPage = () => {
   return (
     <>
-      <div className='landing'>
-        {/* <div className='main-image'>
-          <img src={landingImage} className='landing-image' also='Home' />
-        </div> */}
+      <div className='main-image'>
+        <h1>Landing page</h1>
       </div>
     </>
   );

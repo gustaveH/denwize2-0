@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', serif;
+  h1 {
+    text-transform: capitalize;
+  }
+}
+body {
+  background: #f2f2f2;
+  margin: 0;
+}
+:root {
+  --mainWhite: #ffffff;
+  --mainBlack: #000000;
+  --primaryColor: #ffc20f;
+  --secondaryColor: #fd6e00;
+  --thirdColor: #108590;
+  --tangerine: #fd9004;
+  --grey: #6c6d6e;
+}
+.navbar {
+  background: var(--mainWhite);
+
+  .container {
+    padding: 0.8em 0.8em 0 0.8em;
+    display: flex;
+    place-content: space-between;
+  }
+  .image-logo {
+    height: 2em;
+    width: 7.5em;
+  }
+
+  .menu-bars {
+    cursor: pointer;
+    color: var(--mainBlack);
+    float: right;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0.2em;
+
+    &:hover {
+      color: var(--secondaryColor);
+    }
+  }
+  .menu-times {
+    cursor: pointer;
+    color: var(--mainBlack);
+    float: right;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0.6em;
+
+    &:hover {
+      color: var(--secondaryColor);
+    }
+  }
+
+  nav {
+    background: var(--thirdColor);
+    //display: none;
+    position: fixed;
+    z-index: 999;
+    width: 74%;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    padding: 0.5em;
+    transition: 850ms;
+
+    ul.links {
+      margin-top: 3em;
+    }
+    li {
+      list-style-type: none;
+      padding: 1em;
+    }
+    .home-link,
+    .menu-link {
+      color: var(--mainWhite);
+      text-decoration: none;
+      display: block;
+      font-size: 1.3em;
+      text-align: right;
+      transition: 0.5s;
+
+      &:hover {
+        font-weight: bold;
+        color: var(--mainBlack);
+        border-radius: 4px;
+        padding-right: 7em;
+        transition: 0.5s;
+        background: var(--tangerine);
+      }
+    }
+  }
+  .menu.active {
+    transition: 350ms;
+    right: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .menu-times,
+  .menu-bars {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    padding: 0;
+  }
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: 2em;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    ul {
+      display: flex;
+    }
+    .home-link {
+      font-weight: bold;
+    }
+    .home-link,
+    .menu-link {
+      color: black;
+      font-size: 0.8em;
+      padding: 0;
+    }
+    ul.links {
+      margin: 0;
+    }
+  }
+}
