@@ -10,6 +10,11 @@ export const MenuItems = [
     cName: 'menu-link',
   },
   {
+    title: 'about',
+    url: '/about',
+    cName: 'menu-link',
+  },
+  {
     title: 'Contact',
     url: '/contact',
     cName: 'menu-link',

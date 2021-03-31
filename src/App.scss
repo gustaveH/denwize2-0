@@ -7,6 +7,31 @@
   h1 {
     text-transform: capitalize;
   }
+  .section-header {
+    align-items: center;
+    margin: -1.5em 0 2em 0;
+    font-size: 1em;
+    .header-text {
+      text-transform: uppercase;
+    }
+    .hr-line {
+      padding: 0 14em;
+    }
+    .header-line {
+      margin: -0.2em auto;
+      border: 0.2em solid var(--primaryColor);
+      border-radius: 5px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    padding: 3em 2em;
+    text-align: center;
+  }
 }
 body {
   background: #f2f2f2;
@@ -21,15 +46,36 @@ body {
   --tangerine: #fd9004;
   --grey: #6c6d6e;
 }
+// BUTTON//
+.button {
+  background: var(--thirdColor);
+  text-transform: capitalize;
+  color: var(--mainWhite);
+  padding: 0.5em 0.8em;
+  margin: 2em;
+  border: none;
+  font-size: 1em;
+  border-radius: 5em;
+  font-weight: bold;
+
+  &:hover {
+    background: var(--secondaryColor);
+    color: var(--mainBlack);
+    border: none;
+  }
+}
+
+// Start NAVBAR//
 .navbar {
   background: var(--mainWhite);
 
-  .container {
+  .container-nav {
     padding: 0.8em 0.8em 0 0.8em;
     display: flex;
     place-content: space-between;
   }
   .image-logo {
+    padding-left: 5em;
     height: 2em;
     width: 7.5em;
   }
@@ -61,7 +107,6 @@ body {
 
   nav {
     background: var(--thirdColor);
-    //display: none;
     position: fixed;
     z-index: 999;
     width: 74%;
@@ -107,7 +152,7 @@ body {
   .menu-bars {
     display: none;
   }
-  .container {
+  .container-nav {
     display: grid;
     grid-template-columns: 100px auto;
     padding: 0;
@@ -116,25 +161,120 @@ body {
     display: flex;
     justify-content: space-between;
     background: none;
-    position: unset;
-    height: 2em;
+    position: inherit;
+    height: 1em;
     width: 100%;
     padding: 0;
     align-items: center;
     ul {
       display: flex;
     }
-    .home-link {
-      font-weight: bold;
+    .links {
+      position: unset;
+      padding-bottom: 1em 2em;
     }
+
     .home-link,
     .menu-link {
       color: black;
-      font-size: 0.8em;
-      padding: 0;
+      margin-bottom: 2em;
+      &:hover {
+        padding: 0 0.6em;
+        color: var(--mainWhite);
+        transition: none !important;
+      }
     }
-    ul.links {
-      margin: 0;
+  }
+}
+
+// End NAVBAR
+
+// Start Landing Page //
+.main-page {
+  .landing-text {
+    color: var(--mainBlack);
+    font-size: 2.1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .landing-paragraph {
+    color: var(--mainBlack);
+  }
+  .landing-image {
+    margin: 2em;
+    width: 80%;
+    height: 80%;
+    border-radius: 50px 150px;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 10em 1em;
+  }
+  .main-page .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .main-page {
+    .left-column {
+      margin: 5em 2em 0 1em;
     }
+    .landing-image {
+      width: 40%;
+      margin: 0 -3em;
+    }
+    .left-column {
+      margin-right: 3em;
+      padding-right: 4em;
+    }
+    .landing-paragraph {
+      padding: 0.5em 0;
+    }
+    .get-in-touch {
+      margin: 0 9em;
+    }
+  }
+}
+
+// End of landing page //
+
+//Card//
+.card {
+  background: var(--mainWhite);
+  margin: 1em;
+  padding: 0.5em;
+  border: 0.5em;
+  border-radius: 0.8em;
+  .image-avatar {
+    width: 40%;
+    border-radius: 0.5em;
+  }
+  .card-service {
+    margin-bottom: 0.5em;
+  }
+}
+
+// Start of services //
+.service-page {
+  background: var(--thirdColor);
+  .container {
+    padding: 0.5em;
+  }
+  .service-text {
+    margin-bottom: 1em;
+  }
+
+  .services-cards {
+    padding: 0.5em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .card {
+    display: flex;
   }
 }
