@@ -3,14 +3,14 @@ import Card from './Card';
 import MusicAvatar from '../images/card/compose_music.png';
 import WebdevAvatar from '../images/card/web_development.png';
 import DbaAvatar from '../images/card/maintanance.png';
-import HeaderLine from './HeaderLine';
+import HeaderText from './HeaderText';
 
 const Services = () => {
   return (
     <>
       <section className='service-page'>
         <div className='container'>
-          <HeaderLine headerLine='services' />
+          <HeaderText headerLine='services' />
           <p className='service-text'>
             Culpa laboris irure tempor nisi Lorem voluptate aliqua
             aliqua.Consectetur et dolore deserunt proident magna laboris ea

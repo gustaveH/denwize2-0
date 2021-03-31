@@ -18,7 +18,10 @@
       padding: 0 14em;
     }
     .header-line {
-      margin: -0.2em auto;
+      background: var(--primaryColor);
+      display: block;
+      margin: auto;
+      width: 80px;
       border: 0.2em solid var(--primaryColor);
       border-radius: 5px;
     }
