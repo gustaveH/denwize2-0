@@ -7,6 +7,8 @@
   h1 {
     text-transform: capitalize;
   }
+
+  // header
   .section-header {
     align-items: center;
     margin: -1.5em 0 2em 0;
@@ -18,11 +20,11 @@
       padding: 0 14em;
     }
     .header-line {
-      background: var(--primaryColor);
+      background: var(--tangerine);
       display: block;
       margin: auto;
       width: 80px;
-      border: 0.2em solid var(--primaryColor);
+      border: 0.2em solid var(--tangerine);
       border-radius: 5px;
     }
   }
@@ -43,7 +45,7 @@ body {
 :root {
   --mainWhite: #ffffff;
   --mainBlack: #000000;
-  --primaryColor: #ffc20f;
+  --primaryColor: #141413;
   --secondaryColor: #fd6e00;
   --thirdColor: #108590;
   --tangerine: #fd9004;
@@ -57,6 +59,7 @@ body {
   padding: 0.5em 0.8em;
   margin: 2em;
   border: none;
+  cursor: pointer;
   font-size: 1em;
   border-radius: 5em;
   font-weight: bold;
@@ -277,7 +280,34 @@ body {
   }
 }
 @media only screen and (min-width: 768px) {
-  .card {
+  .services-cards {
     display: flex;
+  }
+}
+
+// End of services //
+
+// Start of Cntact
+.contact {
+  background: var(--mainWhite);
+  .chat-picture img {
+    width: 25em;
+  }
+  label {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    border: 2px solid var(--grey);
+    box-sizing: border-box;
+  }
+  .submit-button {
+    margin-top: -2em;
   }
 }

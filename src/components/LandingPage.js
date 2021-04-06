@@ -18,7 +18,7 @@ const LandingPage = () => {
               et.
             </p>
             <div className='get-in-touch'>
-              <Button />
+              <Button message='Get In Touch' />
             </div>
           </div>
           <img
