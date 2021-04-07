@@ -11,6 +11,7 @@ const About = () => {
             Denwize was established on the basis that knowledge and wisdom are
             an integral part of solving complex problems.
           </p>
+          <br />
           <p>
             we focus on doing things the right way. We work with passion and put
             our client’s needs at the forefront of our processes. We listen

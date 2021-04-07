@@ -289,8 +289,14 @@ body {
 // End of services //
 // About us //
 .about-us {
-  padding: 0.5em;
-  margin: 0 6em 4em;
+  padding: 2em;
+  margin: 0 3em 3em;
+}
+@media only screen and (min-width: 768px) {
+  .about-us {
+    padding: 3em;
+    margin: 0 6em 4em;
+  }
 }
 
 // Start of Cntact
