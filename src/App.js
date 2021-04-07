@@ -1,20 +1,17 @@
 import React from 'react';
-import './App.scss';
-import LandingPage from './components/LandingPage';
-import Navigation from './components/Navigation';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import { Link } from 'react-router-dom';
-import About from './components/About';
+import '../src/App.scss';
+import DjzizaForm from '../src/pages/DjzizaForm';
+import Home from './pages/Home';
+
+import { Route, Switch } from 'react-router-dom';
 
 const App = () => {
   return (
     <>
-      <Navigation />
-      <Link exact path='/' component={LandingPage} />
-      <Link exact path='/services' component={Services} />
-      <Link exact path='/about' component={About} />
-      <Link exact path='/contact' component={Contact} />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/djziza' component={DjzizaForm} />
+      </Switch>
     </>
   );
 };

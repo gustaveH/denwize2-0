@@ -1,6 +1,6 @@
 import React from 'react';
 import landingImage from '../images/landing.jpg';
-import Button from '../components/Button';
+import Button from './Button';
 
 const LandingPage = () => {
   return (
