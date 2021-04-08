@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Instagram from '../images/instagram.png';
 import MixcloudFooter from '../images/mixcloud-footer.png';
 import SpotifyFooter from '../images/spotify-footer.png';
@@ -9,13 +10,15 @@ const Footer = () => {
       <p className='text-footer'>&copy;Denwize</p>
       <p className='text-footer'>Follow us:</p>
       <div className='footer-social'>
-        <img src={Instagram} alt='IG' />
-        <img
-          src={SpotifyFooter}
-          alt='Spotify'
-          href='https://open.spotify.com/user/vm01elqhvak78e24ds1bk5rhc'
-        />
-        <img src={MixcloudFooter} alt='Mixcloud' />
+        <Link to='https://open.spotify.com/user/vm01elqhvak78e24ds1bk5rhc'>
+          <img src={SpotifyFooter} alt='Spotify' />
+        </Link>
+        <Link to='https://www.instagram.com/iamdjziza/'>
+          <img src={Instagram} alt='Spotify' />
+        </Link>
+        <Link to='https://www.mixcloud.com/djziza/'>
+          <img src={MixcloudFooter} alt='Spotify' />
+        </Link>
       </div>
     </div>
   );
