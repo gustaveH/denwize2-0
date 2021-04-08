@@ -14,9 +14,9 @@ const Djziza = () => {
 
           <label for='email'>Email</label>
           <input type='email' email='email' />
-          <div>
-            <Calendar />
-          </div>
+
+          <label for='name'>Date</label>
+          <Calendar className='datepicker' />
 
           <label for='description'>
             In only one (1) sentence, please explain what musical experience you
