@@ -386,7 +386,6 @@ body {
   }
 }
 
-// end of djziza
 .dj-form {
   padding: 1.5em;
   label {
@@ -402,5 +401,32 @@ body {
     border-radius: 0.8em;
     border: 1px solid var(--grey);
     box-sizing: border-box;
+  }
+}
+// end of djziza
+// start of footer
+.footer {
+  background: var(--tangerine);
+  position: relative;
+  text-align: center;
+
+  .text-footer {
+    font-size: 1.2em;
+    position: relative;
+    display: inline;
+    margin: 0.5em;
+    right: 3em;
+    top: 0.8em;
+  }
+
+  img {
+    width: 2em;
+    position: relative;
+    z-index: 3;
+    margin-right: 0.5em;
+    cursor: pointer;
+    bottom: 0em;
+    left: 7em;
+    bottom: 0.8em;
   }
 }
