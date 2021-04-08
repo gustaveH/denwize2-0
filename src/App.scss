@@ -299,7 +299,7 @@ body {
   }
 }
 
-// Start of Cntact
+// Start of Contact
 .contact {
   background: var(--mainWhite);
   .chat-picture img {
@@ -355,5 +355,52 @@ body {
       width: 45%;
       height: 60%;
     }
+  }
+}
+// end of conatct
+// start of djziza
+.dj-ziza {
+  .container {
+    margin-top: -2em;
+  }
+  .dj-logo {
+    width: 40%;
+  }
+  .dj-header {
+    padding: 0.5em;
+    margin-top: 4em;
+  }
+  .dj-links {
+    width: 100%;
+    .spotify,
+    .mixcloud {
+      display: inline;
+      width: 8%;
+      padding: 0em;
+      margin: 0.8em;
+      cursor: pointer;
+    }
+    .listen-links {
+      font-size: 1em;
+    }
+  }
+}
+
+// end of djziza
+.dj-form {
+  padding: 1.5em;
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 0.8em;
+    border: 1px solid var(--grey);
+    box-sizing: border-box;
   }
 }
