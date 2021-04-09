@@ -5,7 +5,7 @@ import chat from '../images/card/chat.png';
 
 const Contact = () => {
   return (
-    <section className='contact'>
+    <section className='contact' id='/contact'>
       <div className='container'>
         <div className='get-in-touch'>
           <HeaderText headerLine='Get in touch' id='contact-text' />

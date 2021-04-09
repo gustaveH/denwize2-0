@@ -3,7 +3,7 @@ import HeaderText from './HeaderText';
 
 const About = () => {
   return (
-    <section className='about-us'>
+    <section className='about-us' id='/about'>
       <div className='section'>
         <HeaderText headerLine='About Us' />
         <div>

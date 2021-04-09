@@ -128,6 +128,7 @@ body {
     li {
       list-style-type: none;
       padding: 1em;
+      cursor: pointer;
     }
     .home-link,
     .menu-link {
@@ -209,7 +210,7 @@ body {
   .landing-image {
     margin: 2em;
     width: 80%;
-    height: 80%;
+    height: 85%;
     border-radius: 50px 150px;
   }
 }

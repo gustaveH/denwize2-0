@@ -5,7 +5,7 @@ import Button from './Button';
 const LandingPage = () => {
   return (
     <>
-      <section className='main-page'>
+      <section className='main-page' id='/'>
         <div className='container'>
           <div className='left-column'>
             <h1 className='landing-text'>Welcome to Denwize!</h1>

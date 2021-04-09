@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { MenuItems } from './MenuItems';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../images/denwize-color.png';
-import { Link } from 'react-router-dom';
+
+import { Link } from 'react-scroll';
 
 const Navigation = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -14,7 +15,7 @@ const Navigation = () => {
     <div className='navbar'>
       <header className='container-nav'>
         <Link to='/'>
-          <img src={logo} className='image-logo' alt='logo' />
+          <img src={logo} className='image-logo' alt='logo' id='/home' />
         </Link>
         <Link to='#'>
           <FaBars onClick={showSidebar} className='menu-bars' />
@@ -27,7 +28,12 @@ const Navigation = () => {
             {MenuItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <Link className={item.cName} to={item.url}>
+                  <Link
+                    className={item.cName}
+                    to={item.url}
+                    smooth={true}
+                    duration={1000}
+                  >
                     {item.title}
                   </Link>
                 </li>

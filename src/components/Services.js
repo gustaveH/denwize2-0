@@ -8,7 +8,7 @@ import HeaderText from './HeaderText';
 const Services = () => {
   return (
     <>
-      <section className='service-page'>
+      <section className='service-page' id='/services'>
         <div className='container'>
           <HeaderText headerLine='services' />
           <p className='service-text'>

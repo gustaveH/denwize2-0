@@ -8,7 +8,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import About from '../components/About';
 
-const App = () => {
+const Home = () => {
   return (
     <>
       <Navigation />
@@ -21,4 +21,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
