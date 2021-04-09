@@ -4,7 +4,7 @@ import HeaderText from './HeaderText';
 const About = () => {
   return (
     <section className='about-us' id='/about'>
-      <div className='section'>
+      <div className='container'>
         <HeaderText headerLine='About Us' />
         <div>
           <p>
