@@ -15,13 +15,14 @@ const Contact = () => {
         </div>
         <div className='contact-form'>
           <form
-            name='contact'
+            name='contact v1'
             method='POST'
             netlify-honeypot='bot-field'
             data-netlify='true'
           >
+            <input type='hidden' name='form-name' value='contact v1' />
             <label>
-              <input placeholder='Full Name' type='text' name='name' />
+              <input placeholder='Full Name' type='text' name='form-name' />
             </label>
             <label>
               <input placeholder='email' type='email' name='email' />
