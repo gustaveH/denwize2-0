@@ -7,13 +7,13 @@ const Djziza = () => {
   return (
     <>
       <div className='dj-form' id='/djziza'>
-        <form>
+        <form action='https://formspree.io/f/xpzkzeja' method='POST'>
           <label for='name'>Name</label>
 
           <input type='text' name='name' />
 
           <label for='email'>Email</label>
-          <input type='email' email='email' />
+          <input type='email' email='_replyto' />
 
           <label for='name'>Date</label>
           <Calendar className='datepicker' />
@@ -23,7 +23,7 @@ const Djziza = () => {
             would like to feel at your event (e.g. old school, all-90s, etc...)
             Go Ahead...Mix it up if you like!!
           </label>
-          <textarea name='Description' placeholder='Describtion..' />
+          <textarea name='Message' placeholder='Describtion..' />
 
           <label for='background'>
             What type of music moves your groove thang?!
