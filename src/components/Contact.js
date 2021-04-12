@@ -14,18 +14,12 @@ const Contact = () => {
           <img src={chat} alt='lets chat' />
         </div>
         <div className='contact-form'>
-          <form
-            name='contact v1'
-            method='POST'
-            netlify-honeypot='bot-field'
-            data-netlify='true'
-          >
-            <input type='hidden' name='form-name' value='contact v1' />
+          <form action='https://formspree.io/f/mknknazn' method='POST'>
             <label>
-              <input placeholder='Full Name' type='text' name='form-name' />
+              <input placeholder='Full Name' type='text' name='name' />
             </label>
             <label>
-              <input placeholder='email' type='email' name='email' />
+              <input placeholder='email' type='email' name='_replyto' />
             </label>
             <textarea name='message' placeholder='How Can We help?' />
             <div className='submit-button'>
