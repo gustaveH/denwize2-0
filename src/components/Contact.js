@@ -18,6 +18,9 @@ const Contact = () => {
             <label>
               <input placeholder='Full Name' name='name' />
             </label>
+            <label>
+              <input placeholder='email' name='email' />
+            </label>
             <textarea name='message' placeholder='How Can We help?' />
             <div className='field'>
               <div data-netlify-recaptcha='true'></div>
