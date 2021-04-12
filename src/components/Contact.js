@@ -16,19 +16,15 @@ const Contact = () => {
         <div className='contact-form'>
           <form name='contact' method='POST' data-netlify='true'>
             <label>
-              <input placeholder='Full Name' name='name' />
+              <input placeholder='Full Name' type='text' name='name' />
             </label>
             <label>
-              <input placeholder='email' name='email' />
+              <input placeholder='email' type='email' name='email' />
             </label>
             <textarea name='message' placeholder='How Can We help?' />
-            <div className='field'>
-              <div data-netlify-recaptcha='true'></div>
-            </div>
+            <div data-netlify-recaptcha='true'></div>
             <div className='submit-button'>
-              <Button message='Send Message'>
-                <button type='submit' value='Submit' />
-              </Button>
+              <Button message='Send Message' type='submit' value='Submit' />
             </div>
           </form>
         </div>

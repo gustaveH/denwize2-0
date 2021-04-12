@@ -339,8 +339,7 @@ body {
     box-sizing: border-box;
   }
   .submit-button {
-    margin-top: -1em;
-    padding-bottom: 1.5em;
+    margin-top: -2em;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -374,9 +373,6 @@ body {
       top: 8em;
       width: 45%;
       height: 60%;
-    }
-    .submit-button {
-      padding-bottom: 1.5em;
     }
   }
 }
