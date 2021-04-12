@@ -1,10 +1,12 @@
 import React from 'react';
+import Button from '../components/Button';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { MenuItems } from './MenuItems';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../images/denwize-color.png';
+import NavLinks from './NavLinks';
 
-import { Link } from 'react-scroll';
+// import { Link as a } from 'react-scroll';
 
 const Navigation = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -24,22 +26,12 @@ const Navigation = () => {
           <Link to='#'>
             <FaTimes className='menu-times' onClick={showSidebar} />
           </Link>
-          <ul className='links'>
-            {MenuItems.map((item, index) => {
-              return (
-                <li key={index}>
-                  <Link
-                    className={item.cName}
-                    to={item.url}
-                    smooth={true}
-                    duration={1000}
-                  >
-                    {item.title}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+          <NavLinks />
+          <div className='dj-ziza-btn'>
+            <Link to='/djziza'>
+              <Button message='DJziza' />
+            </Link>
+          </div>
         </nav>
       </header>
     </div>

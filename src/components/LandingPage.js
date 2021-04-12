@@ -1,5 +1,6 @@
 import React from 'react';
 import landingImage from '../images/landing.jpg';
+import { Link } from 'react-scroll';
 import Button from './Button';
 
 const LandingPage = () => {
@@ -15,10 +16,12 @@ const LandingPage = () => {
               reprehenderit Lorem labore eu et.Amet ad elit labore aliquip
               incididunt dolore do nulla. Aliqua cupidatat amet pariatur cillum
               laborum aute reprehenderit ad velit reprehenderit Lorem labore eu
-              et.
+              etttt.
             </p>
             <div className='get-in-touch'>
-              <Button message='Get In Touch' />
+              <Link to='/contact' smooth={true} duration={1000}>
+                <Button message='Get In Touch' />
+              </Link>
             </div>
           </div>
           <img

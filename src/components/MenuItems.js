@@ -19,9 +19,4 @@ export const MenuItems = [
     url: '/contact',
     cName: 'menu-link',
   },
-  {
-    title: 'DJZiza',
-    url: '/djziza',
-    cName: 'menu-link',
-  },
 ];

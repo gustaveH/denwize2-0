@@ -14,11 +14,14 @@ const Contact = () => {
           <img src={chat} alt='lets chat' />
         </div>
         <div className='contact-form'>
-          <form>
+          <form name='contact' method='POST' data-netlify='true'>
             <label>
               <input placeholder='Full Name' name='name' />
             </label>
-            <textarea placeholder='How Can We help?' />
+            <textarea name='message' placeholder='How Can We help?' />
+            <div className='field'>
+              <div data-netlify-recaptcha='true'></div>
+            </div>
             <div className='submit-button'>
               <Button message='Send Message' type='submit' value='Submit' />
             </div>

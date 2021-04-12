@@ -74,6 +74,9 @@ body {
 // Start NAVBAR//
 .navbar {
   background: var(--mainWhite);
+  position: fixed;
+  width: 100%;
+  top: 0;
 
   .container-nav {
     padding: 0.8em 0.8em 0 0.8em;
@@ -153,6 +156,10 @@ body {
     transition: 350ms;
     right: 0;
   }
+  .dj-ziza-btn {
+    float: right;
+    margin-right: -1.5em;
+  }
 }
 @media only screen and (min-width: 768px) {
   .menu-times,
@@ -164,7 +171,7 @@ body {
     grid-template-columns: 100px auto;
     padding: 0;
   }
-  .navbar nav {
+  .navbar .menu {
     display: flex;
     justify-content: space-between;
     background: none;
@@ -177,8 +184,14 @@ body {
       display: flex;
     }
     .links {
-      position: unset;
-      padding-bottom: 1em 2em;
+      margin: 1em;
+      padding-top: 2em;
+      margin-top: 3em;
+    }
+
+    li {
+      text-transform: capitalize;
+      padding: 0.5em;
     }
 
     .home-link,
@@ -188,8 +201,11 @@ body {
       &:hover {
         padding: 0 0.6em;
         color: var(--mainWhite);
-        transition: none !important;
       }
+    }
+    .dj-ziza-btn {
+      float: right;
+      margin-top: 0.8em;
     }
   }
 }
@@ -198,6 +214,7 @@ body {
 
 // Start Landing Page //
 .main-page {
+  margin-top: 2em;
   .landing-text {
     color: var(--mainBlack);
     font-size: 2.1em;
@@ -268,7 +285,8 @@ body {
 
 // Start of services //
 .service-page {
-  padding: 2.5em;
+  padding: 4em;
+
   background: var(--thirdColor);
   .container {
     padding: 0.5em;
@@ -290,8 +308,8 @@ body {
 // End of services //
 // About us //
 .about-us {
-  padding: 2em;
-  margin: 0 3em 3em;
+  padding: 4em;
+  margin: 0.5em 3em 3em;
 }
 @media only screen and (min-width: 768px) {
   .about-us {

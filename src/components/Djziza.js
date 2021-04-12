@@ -6,7 +6,7 @@ import Calendar from './Dalendar';
 const Djziza = () => {
   return (
     <>
-      <div className='dj-form'>
+      <div className='dj-form' id='/djziza'>
         <form>
           <label for='name'>Name</label>
 
