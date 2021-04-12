@@ -26,7 +26,9 @@ const Contact = () => {
               <div data-netlify-recaptcha='true'></div>
             </div>
             <div className='submit-button'>
-              <Button message='Send Message' type='submit' value='Submit' />
+              <Button message='Send Message'>
+                <button type='submit' value='Submit' />
+              </Button>
             </div>
           </form>
         </div>
