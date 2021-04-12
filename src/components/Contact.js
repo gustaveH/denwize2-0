@@ -14,7 +14,12 @@ const Contact = () => {
           <img src={chat} alt='lets chat' />
         </div>
         <div className='contact-form'>
-          <form name='contact' method='POST' data-netlify='true'>
+          <form
+            name='contact'
+            method='POST'
+            netlify-honeypot='bot-field'
+            data-netlify='true'
+          >
             <label>
               <input placeholder='Full Name' type='text' name='name' />
             </label>
@@ -22,7 +27,6 @@ const Contact = () => {
               <input placeholder='email' type='email' name='email' />
             </label>
             <textarea name='message' placeholder='How Can We help?' />
-            <div data-netlify-recaptcha='true'></div>
             <div className='submit-button'>
               <Button message='Send Message' type='submit' value='Submit' />
             </div>
