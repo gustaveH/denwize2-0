@@ -331,23 +331,26 @@ section.contact {
   }
   section.contact {
     position: relative;
-    height: auto;
+    height: 100%;
+    padding: 13em;
+
     .get-in-touch {
       position: absolute;
-      top: 2.5em;
-      left: 15em;
+      top: 3.5em;
+      left: 16em;
     }
     .chat-picture {
       position: absolute;
       width: 40%;
       right: 2em;
-      top: 0;
+      top: 3em;
       height: 100%;
     }
     .contact-form {
       position: absolute;
       margin: 1em;
-      top: 4em;
+      left: 3em;
+      top: 5.7em;
       width: 50%;
       bottom: 0;
     }
