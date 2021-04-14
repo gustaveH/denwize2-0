@@ -1,8 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import Instagram from '../images/instagram.png';
-import MixcloudFooter from '../images/mixcloud-footer.png';
-import SpotifyFooter from '../images/spotify-footer.png';
 
 const Footer = () => {
   return (
