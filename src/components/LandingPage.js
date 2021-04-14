@@ -24,11 +24,13 @@ const LandingPage = () => {
               </Link>
             </div>
           </div>
-          <img
-            src={landingImage}
-            className='landing-image'
-            alt="<a href='https://www.freepik.com/vectors/background'>Background vector created by rawpixel.com - www.freepik.com</a>"
-          />
+          <div className='home-image'>
+            <img
+              className='landing-image'
+              src={landingImage}
+              alt="<a href='https://www.freepik.com/vectors/background'>Background vector created by rawpixel.com - www.freepik.com</a>"
+            />
+          </div>
         </div>
       </section>
     </>

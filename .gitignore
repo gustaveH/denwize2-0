@@ -21,3 +21,244 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+# css code
+// // Start Landing Page //
+// .main-page {
+//   margin-top: 2em;
+//   .landing-text {
+//     color: var(--mainBlack);
+//     font-size: 2.1em;
+//     letter-spacing: 0.1em;
+//     text-transform: uppercase;
+//   }
+//   .landing-paragraph {
+//     color: var(--mainBlack);
+//   }
+//   .landing-image {
+//     margin: 2em;
+//     width: 80%;
+//     height: 85%;
+//     border-radius: 50px 150px;
+//   }
+// }
+// @media only screen and (min-width: 1080px) {
+//   .container {
+//     width: 1080px;
+//     margin: 0 auto;
+//   }
+//   section {
+//     padding: 10em 1em;
+//   }
+//   .main-page .container {
+//     display: flex;
+//     justify-content: space-between;
+//     text-align: left;
+//   }
+//   .main-page {
+//     .left-column {
+//       margin: 5em 2em 0 1em;
+//     }
+//     .landing-image {
+//       width: 40%;
+//       margin: 0 -3em;
+//     }
+//     .left-column {
+//       margin-right: 3em;
+//       padding-right: 4em;
+//     }
+//     .landing-paragraph {
+//       padding: 0.5em 0;
+//     }
+//     .get-in-touch {
+//       margin: 0 9em;
+//     }
+//   }
+// }
+
+// // End of landing page //
+
+// //Card//
+// .card {
+//   background: var(--mainWhite);
+//   margin: 1em;
+//   padding: 1em;
+//   border: 0.5em;
+//   border-radius: 0.8em;
+//   .image-avatar {
+//     width: 40%;
+//     border-radius: 0.5em;
+//   }
+//   .card-service {
+//     margin-bottom: 0.5em;
+//   }
+// }
+
+// // Start of services //
+// .service-page {
+//   padding: 4em;
+
+//   background: var(--thirdColor);
+//   .container {
+//     padding: 0.5em;
+//   }
+//   .service-text {
+//     margin-bottom: 1em;
+//   }
+
+//   .services-cards {
+//     padding: 0em;
+//   }
+// }
+// @media only screen and (min-width: 768px) {
+//   .services-cards {
+//     display: flex;
+//   }
+// }
+
+// // End of services //
+// // About us //
+// .about-us {
+//   padding: 4em;
+//   margin: 0.5em 3em 3em;
+// }
+// @media only screen and (min-width: 768px) {
+//   .about-us {
+//     padding: 3em;
+//     margin: 0 6em 4em;
+//   }
+// }
+
+// // Start of Contact
+// .contact {
+//   background: var(--mainWhite);
+//   .chat-picture img {
+//     width: 25em;
+//   }
+//   label {
+//     display: block;
+//     font-size: 2em;
+//     margin-bottom: 0.5em;
+//   }
+//   input,
+//   textarea {
+//     width: 100%;
+//     padding: 0.8em;
+//     margin-bottom: 1em;
+//     border-radius: 0.3em;
+//     border: 2px solid var(--grey);
+//     box-sizing: border-box;
+//   }
+//   .submit-button {
+//     margin-top: -2em;
+//   }
+// }
+// @media only screen and (min-width: 768px) {
+//   .contact {
+//     position: relative;
+//     padding: 14em;
+
+//     .container {
+//       display: flex;
+//     }
+//     .get-in-touch {
+//       position: absolute;
+//       top: 3em;
+//       left: 1em;
+//     }
+//     .chat-picture {
+//       position: absolute;
+//       right: 4em;
+//       top: 4em;
+//       width: 40%;
+//       height: 60%;
+//     }
+//     .get-in-touch {
+//       position: absolute;
+
+//       right: 2em;
+//     }
+//     .contact-form {
+//       position: absolute;
+//       left: 6em;
+//       top: 8em;
+//       width: 45%;
+//       height: 60%;
+//     }
+//   }
+// }
+// // end of conatct
+// // start of djziza
+// .dj-ziza {
+//   .container {
+//     margin-top: -2em;
+//   }
+//   .dj-logo {
+//     width: 40%;
+//   }
+//   .dj-header {
+//     padding: 0.5em;
+//     margin-top: 4em;
+//   }
+//   .dj-links {
+//     width: 100%;
+//     .spotify,
+//     .mixcloud {
+//       display: inline;
+//       width: 8%;
+//       padding: 0em;
+//       margin: 0.8em;
+//       cursor: pointer;
+//     }
+//     .listen-links {
+//       font-size: 1em;
+//     }
+//   }
+// }
+
+// .dj-form {
+//   padding: 1.5em;
+//   label {
+//     display: block;
+//     font-size: 1.2em;
+//     margin-bottom: 0.5em;
+//   }
+//   input,
+//   textarea {
+//     width: 100%;
+//     padding: 0.8em;
+//     margin-bottom: 1em;
+//     border-radius: 0.8em;
+//     border: 1px solid var(--grey);
+//     box-sizing: border-box;
+//   }
+// }
+// // end of djziza
+// // start of footer
+// .footer {
+//   background: var(--tangerine);
+//   text-align: center;
+//   padding: 1em;
+//   .text-footer {
+//     font-size: 1em;
+//     // position: relative;
+//     display: inline;
+//     margin: 3em;
+//     right: 3em;
+//     top: 0.8em;
+//   }
+
+//   // img {
+//   //   width: 2em;
+//   //   position: relative;
+//   //   z-index: 3;
+//   //   margin-right: 0.5em;
+//   //   cursor: pointer;
+//   //   bottom: 0em;
+//   //   left: 7em;
+//   //   bottom: 0.8em;
+//   // }
+// }
+
