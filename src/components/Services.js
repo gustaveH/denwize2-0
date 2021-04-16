@@ -36,12 +36,14 @@ const Services = () => {
               message='We provide career mentorship training, resume building, and job search. We take the time to teach new and excting skills and obtaining IT certifications. '
             />
 
-            <Card
-              className='cards'
-              avatar={MusicAvatar}
-              service='Entertainment'
-              message='Our entertainment package includes music for private events, weddings, birthday parties. Book us for your next event!'
-            />
+            <a href='https://www.djziza.com/' target='_blank '>
+              <Card
+                className='cards'
+                avatar={MusicAvatar}
+                service='Entertainment'
+                message='Our entertainment package includes music for private events, weddings, birthday parties, and any other event in mind. Book us for your next event!'
+              />
+            </a>
           </div>
         </div>
       </section>

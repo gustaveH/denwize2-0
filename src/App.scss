@@ -7,6 +7,9 @@
   h1 {
     text-transform: capitalize;
   }
+  a {
+    text-decoration: none;
+  }
 
   // header
   .section-header {
@@ -241,6 +244,7 @@ body {
 //Card
 .card {
   padding: 0.5em;
+  text-decoration: none;
   background: var(--mainWhite);
   margin: 1em;
   padding: 1em;
@@ -250,10 +254,19 @@ body {
     width: 40%;
     border-radius: 0.5em;
   }
-  .card-service {
+  .card-service,
+  .card-message {
     margin-bottom: 0.5em;
+    color: var(--mainBlack);
   }
+
   &:hover {
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    background-color: var(--secondaryColor);
+  }
+  &:visited {
+    cursor: pointer;
     transition: background-color 0.5s ease;
     background-color: var(--secondaryColor);
   }

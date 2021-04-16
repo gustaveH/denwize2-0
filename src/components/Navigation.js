@@ -43,14 +43,6 @@ const Navigation = () => {
               );
             })}
           </ul>
-          <a
-            className='dj-ziza-btn'
-            href='https://www.djziza.com/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <Button message='DJziza' />
-          </a>
         </nav>
       </header>
     </div>
