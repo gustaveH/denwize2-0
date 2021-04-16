@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../components/Button';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { MenuItems } from './MenuItems';
 import { useState } from 'react';
