@@ -11,12 +11,10 @@ const LandingPage = () => {
           <div className='left-column'>
             <h1 className='landing-text'>Welcome to Denwize!</h1>
             <p className='landing-paragraph'>
-              Amet ad elit labore aliquip incididunt dolore do nulla. Aliqua
-              cupidatat amet pariatur cillum laborum aute reprehenderit ad velit
-              reprehenderit Lorem labore eu et.Amet ad elit labore aliquip
-              incididunt dolore do nulla. Aliqua cupidatat amet pariatur cillum
-              laborum aute reprehenderit ad velit reprehenderit Lorem labore eu
-              etttt.
+              Welcome to Denwize! Where, we focus our efforts in providing
+              simplified solutions for complex problems. We provide services
+              ranging from IT consulting, mentorship, as well as entertainment
+              services.
             </p>
             <div className='get-in-touch'>
               <Link to='/contact' smooth={true} duration={1000}>
