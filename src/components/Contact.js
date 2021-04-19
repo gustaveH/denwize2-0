@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section className='contact' id='/contact'>
       <div className='get-in-touch'>
-        <HeaderText headerLine='Get in touch' id='contact-text' />
+        <HeaderText headerLine='Contact' id='contact-text' />
       </div>
       <div className='container'>
         <div className='chat-picture'>

@@ -15,9 +15,9 @@ const Services = () => {
           </div>
           <div className='service-text'>
             <p>
-              Culpa laboris irure tempor nisi Lorem voluptate aliqua
-              aliqua.Consectetur et dolore deserunt proident magna laboris ea
-              Lorem aliquip occaecat elit reprehenderit do.
+              Our services cover a wide range of areas in Tech, while focusing
+              on the most critical issues and opportunities, but we are not
+              limited to technology only.
             </p>
           </div>
 
